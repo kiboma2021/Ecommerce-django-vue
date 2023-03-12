@@ -41,7 +41,8 @@ install vue client
 
 ### SET UP BASE TEMPLATE
 
-
+### CREATE DJANGO APP AND MODELS FOR PRODUCTS
+django-admin startapp product
 
 
 
