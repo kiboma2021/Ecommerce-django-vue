@@ -24,6 +24,18 @@ Add corsheaders to the middleware above common middleware
 
 -Include djoser in urls
 
+###VUE
+install vue client
+    npm install -g @vue/cli
+    vue create nextshop_vue (babel, router, vuex, css prep-processor)
+
+- Install axios
+    npm install axios (to communicate with backend)
+
+- Install bulma (Css framework)
+    npm install bulma 
+
+
 
 
 
