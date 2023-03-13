@@ -46,6 +46,8 @@ django-admin startapp product
 
 ### SERIALIZERS AND VIEWS FOR THE PRODUCT
 
+### CREATE SIMPLE FRONT PAGE
+
 
 
 
