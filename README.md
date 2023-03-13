@@ -44,6 +44,9 @@ install vue client
 ### CREATE DJANGO APP AND MODELS FOR PRODUCTS
 django-admin startapp product
 
+### SERIALIZERS AND VIEWS FOR THE PRODUCT
+
+
 
 
 
