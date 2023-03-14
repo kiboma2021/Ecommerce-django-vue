@@ -48,6 +48,11 @@ django-admin startapp product
 
 ### CREATE SIMPLE FRONT PAGE
 
+### VIEW A PRODUCT
+    - Create viewset in django
+    - create vue page for showing product
+    - Add link to detail page
+
 
 
 
