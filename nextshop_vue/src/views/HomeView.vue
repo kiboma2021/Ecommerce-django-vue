@@ -46,6 +46,8 @@ export default {
   mounted() {
     //console.log('Mounted...')
     this.getLatestProducts()
+
+    document.title = 'Home | Nextshop'
   },
   methods: {
     async getLatestProducts() {
