@@ -53,7 +53,10 @@ django-admin startapp product
     - create vue page for showing product
     - Add link to detail page
 
+### CREATE VUEX / STATE
+  - Used for state management and app authentication
 
+  
 
 
 
