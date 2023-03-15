@@ -63,7 +63,7 @@ django-admin startapp product
     - Show a toast message
         npm install bulma-toast
 
-
+### IMPLEMENT A LOADING BAR
 
 
 
