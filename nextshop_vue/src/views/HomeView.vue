@@ -48,13 +48,10 @@ export default {
     this.getLatestProducts()
   },
   methods: {
-    getLatestProducts() {
-      //console.log('After Mounted...')
-      //fetch('http://127.0.0.1:8000/api/v1/latest-products/')
-      //.then(res => res.json())
-      //.then(data => this.latestProducts = data)
-      //.catch(err => console.log(error.message))
-      axios
+    async getLatestProducts() {
+      this.$store.commit('setIsLoading', true)
+
+    await axios
       .get('/api/v1/latest-products/')
       .then(response => {
         this.latestProducts = response.data
@@ -62,6 +59,8 @@ export default {
       .catch(error => {
         console.log(error)
       })
+
+      this.$store.commit('setIsLoading', false)
     },
   }
 }
