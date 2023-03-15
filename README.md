@@ -65,6 +65,8 @@ django-admin startapp product
 
 ### IMPLEMENT A LOADING BAR
 
+### SET TITLE FOR ALL PAGES
+
 
 
 
