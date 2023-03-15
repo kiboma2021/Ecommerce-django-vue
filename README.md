@@ -69,7 +69,7 @@ django-admin startapp product
 
 ### MAKE IT POSIBLE TO VIEW CATEGORY
 
-
+### CONVERT THE PRODUCT TO A COMPONENT
 
 
 
