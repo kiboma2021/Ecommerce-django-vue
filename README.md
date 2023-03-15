@@ -67,7 +67,7 @@ django-admin startapp product
 
 ### SET TITLE FOR ALL PAGES
 
-
+### MAKE IT POSIBLE TO VIEW CATEGORY
 
 
 
