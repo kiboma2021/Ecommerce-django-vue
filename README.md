@@ -1,4 +1,4 @@
-# Ecommerce-django-vue
+### Ecommerce-django-vue
 
 -Install and activate virtual environment
 -install django, django-rest-framework, django-cors-headers (for security), djoser(to autenticate users), pillow (to resize images),
@@ -24,7 +24,7 @@ Add corsheaders to the middleware above common middleware
 
 -Include djoser in urls
 
-###VUE
+### VUE
 install vue client
     npm install -g @vue/cli
     vue create nextshop_vue (babel, router, vuex, css prep-processor)
@@ -35,7 +35,7 @@ install vue client
 - Install bulma (Css framework)
     npm install bulma 
 
-##Include font awesome plugin in index.html
+### Include font awesome plugin in index.html
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
@@ -56,7 +56,11 @@ django-admin startapp product
 ### CREATE VUEX / STATE
   - Used for state management and app authentication
 
-  
+### MAKE IT POSSIBLE TO ADD THINGS TO CART
+    - Add functionality to vuex
+    - Initialize store in app.vue
+    - Add button to product page
+    - Show a toast message
 
 
 
