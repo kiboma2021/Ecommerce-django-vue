@@ -108,7 +108,7 @@ export default {
   height: 0;
   overflow: hidden;
 
-  -webkit-transition: all 0.3s;
+  --webkit-transition: all 0.3s;
   transform: all 0.3s;
 
   &.is-loading {
