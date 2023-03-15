@@ -61,6 +61,7 @@ django-admin startapp product
     - Initialize store in app.vue
     - Add button to product page
     - Show a toast message
+        npm install bulma-toast
 
 
 
