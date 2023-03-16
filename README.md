@@ -73,6 +73,8 @@ django-admin startapp product
 
 ### SWITCH BETWEEN CATEGORIES (WATCH CHANGES TO THE ROUTE)
 
+### ADD SEARCH FUNCTIONALITY
+
 
 
 
