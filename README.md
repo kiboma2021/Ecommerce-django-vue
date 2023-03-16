@@ -71,6 +71,8 @@ django-admin startapp product
 
 ### CONVERT THE PRODUCT TO A COMPONENT
 
+### SWITCH BETWEEN CATEGORIES (WATCH CHANGES TO THE ROUTE)
+
 
 
 
