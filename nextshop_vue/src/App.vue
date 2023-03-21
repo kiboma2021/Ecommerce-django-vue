@@ -57,7 +57,7 @@
 
   </div>
 
-  <section class="section">
+  <section class="section has-background-light">
     <router-view/>
   </section>
 
