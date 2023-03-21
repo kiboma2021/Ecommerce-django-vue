@@ -1,15 +1,22 @@
 <template>
   <div class="home">
-    <section class="hero is-medium is-dark mb-6">
-      <div class="hero-body has-text-centered">
-        <p class="title mb-6">
-          Welcome to NextShop
-        </p>
-        <p class="subtitle">
-          The best online store for clothes.
-        </p>
+    <div class="columns mb-6">
+      <div class="column is-one-fifths has-background-white">
+
+          <router-link to="/summer" class="navbar-item">Clothes</router-link>
+          <router-link to="/winter" class="navbar-item">Electronic</router-link>
+          <router-link to="/winter" class="navbar-item">Funiture</router-link>
+          <router-link to="/winter" class="navbar-item">Beauty</router-link>
+          <router-link to="/winter" class="navbar-item">Automotive</router-link>
+
       </div>
-    </section>
+      <div class="column is-0"></div>
+      <div class="column is-three-fifths has-background-grey">is-three-quarter </div>
+      <div class="column is-0"></div>
+      <div class="column is-one-fifths has-background-grey">is-three-quarter </div> 
+ 
+    </div>
+
     <div class="columns is-multiline">
       <div class="column is-12">
         <h2 class="is-size-2 has-text-centered">
